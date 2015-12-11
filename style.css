@@ -1,0 +1,82 @@
+/*
+ * Created by Christopher Rabuse
+ * December 10, 2015
+*/
+
+/* Web Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700|Montserrat:400,700);
+
+/* General Styles */
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #EEE;
+	color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+i {
+	color: #666;
+}
+
+hr {
+	color: #CCC;
+	background-color: #CCC;
+	height: 1px;
+	border: 0;
+}
+
+/* Page */
+.page {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px 20px 20px 15px;
+}
+
+/* Header */
+.header {
+	max-width: 1000px;
+	margin-bottom: 250px;
+}
+
+.header p {
+	line-height: 5px;
+}
+
+.header_image {
+	position: absolute;
+	float: left;
+}
+
+.header_image img {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	-mox-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border: 5px solid #FFF;
+}
+
+.header_info {
+	position: absolute;
+	width: auto;
+	float: right;
+	margin-left: 250px;
+	margin-top: 30px;
+}
+
+/* Content */
+
+.date {
+	float: right;
+	color: #666;
+}
+
+.bold {
+	font-weight: 500;
+}
