@@ -4,17 +4,18 @@
 */
 
 /* Web Fonts */
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700|Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400|Roboto+Condensed:700);
 
 /* General Styles */
 body {
 	font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 	background: #EEE;
 	color: #222;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -31,7 +32,7 @@ hr {
 }
 
 /* Page */
-.page {
+main {
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
@@ -39,7 +40,7 @@ hr {
 }
 
 /* Header */
-.header {
+header {
 	max-width: 1000px;
 	margin-bottom: 250px;
 	animation: fadein 2s;
@@ -47,7 +48,7 @@ hr {
     -webkit-animation: fade 2s;
 }
 
-.header p {
+header p {
 	line-height: 5px;
 }
 
@@ -75,7 +76,7 @@ hr {
 
 /* Content */
 
-.content {
+article {
 	animation: fadein 3s;
     -moz-animation: fade 3s;
     -webkit-animation: fade 3s;
@@ -87,7 +88,11 @@ hr {
 }
 
 .bold {
-	font-weight: 500;
+	font-weight: 400;
+}
+
+ul {
+    line-height: 50px;
 }
 
 /* Animation */
