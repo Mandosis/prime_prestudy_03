@@ -50,6 +50,9 @@ main {
     height: 100vh;
     width: 100%;
     text-align: center;
+    animation: fadein 3s;
+    -moz-animation: fade 3s;
+    -webkit-animation: fade 3s;
 }
 
 .splash button {
@@ -75,10 +78,6 @@ main {
 /* Hide and Show */
 .hide {
     display: none;
-}
-
-.show {
-    display: block;
 }
 
 /* Header */
